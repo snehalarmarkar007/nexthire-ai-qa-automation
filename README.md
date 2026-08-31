@@ -1,4 +1,4 @@
-# Next Hire AI — QA Automation Case Study
+# Next Hire AI
 
 Automated test suite for **Next Hire AI**, an AI-powered resume analyzer and interview coaching platform. This repo implements a QA automation case study: test plan, automated scripts, test data, execution reports, and testing methodology documentation.
 
