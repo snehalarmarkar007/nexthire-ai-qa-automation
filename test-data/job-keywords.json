@@ -1,0 +1,4 @@
+{
+  "softwareEngineerRole": ["javascript", "node", "react", "docker", "aws", "mongodb"],
+  "dataAnalystRole": ["sql", "python", "excel", "tableau", "statistics"]
+}

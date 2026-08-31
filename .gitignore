@@ -1,0 +1,5 @@
+node_modules/
+reports/coverage/
+test-data/resume_oversized.txt
+.env
+*.log

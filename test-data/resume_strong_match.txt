@@ -1,0 +1,11 @@
+Snehal Kumar
+Software Engineer
+
+Experience:
+- Built REST APIs using Node.js and Express
+- Worked extensively with MongoDB and PostgreSQL databases
+- Implemented CI/CD pipelines using GitHub Actions and Docker
+- Strong experience with JavaScript, React, and TypeScript
+- Familiar with AWS deployment and microservices architecture
+
+Skills: javascript, node, react, express, mongodb, docker, aws, git

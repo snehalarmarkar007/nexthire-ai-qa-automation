@@ -1,0 +1,29 @@
+{
+  "name": "nexthire-ai-qa-automation",
+  "version": "1.0.0",
+  "description": "QA Automation Case Study — automated test suite for the Next Hire AI resume analyzer & interview coaching platform",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "test": "jest --coverage --verbose",
+    "test:api": "jest tests/api --verbose",
+    "test:unit": "jest tests/unit --verbose",
+    "test:report": "jest --coverage --verbose --json --outputFile=reports/test-results.json && node scripts/generate-report.js"
+  },
+  "keywords": ["qa", "automation", "testing", "resume-analyzer", "jest", "supertest"],
+  "author": "Snehal",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.19.2",
+    "multer": "^1.4.5-lts.1"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "supertest": "^7.0.0"
+  },
+  "jest": {
+    "testEnvironment": "node",
+    "collectCoverageFrom": ["src/**/*.js"],
+    "coverageDirectory": "reports/coverage"
+  }
+}
